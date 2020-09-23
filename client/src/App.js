@@ -1,22 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import eleyjambaroImg from './images/eleyjambaro-img.jpg';
+import './app.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+    <div className="site">
+      <header className="site-header">
+        <img src={eleyjambaroImg} className="site-header__eleyjambaro-img" alt="eleyjambaro" />
+        <div className="site-header__eleyjambaro-desc">
+          <p>June L A Jambaro</p>
+          <p className="site-header__eleyjambaro-bio">Developer and Creator of Daystamp Web Application</p>
+        </div>
         <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+          className="site-header__link"
+          href="http://daystamp.eleyjambaro.website"
         >
-          Learn React
+          Explore Daystamp App
         </a>
       </header>
     </div>
