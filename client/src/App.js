@@ -1,6 +1,5 @@
 import React from 'react';
 import eleyjambaroImg from './images/eleyjambaro-img.jpg';
-import './app.css';
 
 function App() {
   return (
